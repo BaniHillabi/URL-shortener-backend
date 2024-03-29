@@ -13,7 +13,7 @@ app.post("/", async (req, res) => {
 
   await urlModel.create(data);
   res.json({
-    message: "sukses tod",
+    message: "success create url",
   });
 });
 
